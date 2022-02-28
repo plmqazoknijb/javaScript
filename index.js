@@ -127,7 +127,7 @@ function solution8( year ){
 }
 
 // switch문
-function solution( month ){
+function solution9( month ){
     switch(month){
         case 2:
             return "28"
@@ -140,3 +140,43 @@ function solution( month ){
             return "31"
     }
 }
+
+// while문
+var count = 0;
+while( count < 10){
+    console.log( count );
+    count++;
+}
+
+function solution10(n){
+    var count = 1;
+    var sum=0;
+    while( n-- ){
+        sum = sum + count;
+        count++;
+    }
+    return sum;
+}
+
+// for문
+var cost = [ 85, 42, 37, 10, 22, 8, 15 ];
+var total_cost = 0;
+
+for (var i = 0; i < cost.length; i++){
+    total_cost += cost[i]
+}
+console.log(total_cost);
+
+// for in문
+var obj = {
+    name: "object",
+    age: 10,
+    weight: 5
+}
+var sum = 0;
+for ( var a in obj ){
+    if( typeof( obj[a] ) == "number" ){
+        sum = sum + obj[a];
+    }
+}
+console.log("sum :", sum);
