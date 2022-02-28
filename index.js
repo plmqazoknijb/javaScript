@@ -71,7 +71,7 @@ var word_length = word.length;
 console.log("word : ", word);
 console.log("word_length : ", word_length);
 
-//String 다루기
+// String 다루기
 function solution4(str){
     return str[0]
 }
@@ -79,7 +79,7 @@ function solution5(str){
     return str.substr(0,2);
 }
 
-//배열 만들기
+// 배열 만들기
 var arr = [1,2,3,4,5];
 console.log(arr);
 
@@ -89,8 +89,13 @@ function solution6(arr){
 var result = solution6([1,2,3,4,5])
 console.log(result)
 
-//배열 사용하기
+// 배열 사용하기
 var arr = [1,2,3]
 arr.unshift("begin")
 arr.push("end")
 console.log(arr);
+
+// 주석
+//Hello World를 출력하는 코드입니다.
+console.log("Hello World");
+
