@@ -62,3 +62,19 @@ function solution2(a,b){
 function solution3(a,b){
     return a && b
 }
+
+// String 이어 붙이기
+var prefix = "program";
+var suffix = "mer";
+var word = prefix.concat(suffix);
+var word_length = word.length;
+console.log("word : ", word);
+console.log("word_length : ", word_length);
+
+//String 다루기
+function solution4(str){
+    return str[0]
+}
+function solution5(str){
+    return str.substr(0,2);
+}
