@@ -78,3 +78,19 @@ function solution4(str){
 function solution5(str){
     return str.substr(0,2);
 }
+
+//배열 만들기
+var arr = [1,2,3,4,5];
+console.log(arr);
+
+function solution6(arr){
+    return arr[0]
+}
+var result = solution6([1,2,3,4,5])
+console.log(result)
+
+//배열 사용하기
+var arr = [1,2,3]
+arr.unshift("begin")
+arr.push("end")
+console.log(arr);
