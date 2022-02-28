@@ -99,3 +99,44 @@ console.log(arr);
 //Hello World를 출력하는 코드입니다.
 console.log("Hello World");
 
+// if문
+var age = 25;
+if(age < 20){
+    console.log("20세 미만입니다.");
+}
+else{
+    console.log("20세 이상입니다.");	
+}
+
+function solution7(age){
+    //age가 20이상, 30미만이면 20대
+    if(20 <= age && age < 30){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+function solution8( year ){
+    if (year % 4 == 0){
+        return true
+    }else{
+        return false
+    }
+}
+
+// switch문
+function solution( month ){
+    switch(month){
+        case 2:
+            return "28"
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            return "30"
+        default:
+            return "31"
+    }
+}
