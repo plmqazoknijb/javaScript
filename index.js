@@ -192,3 +192,14 @@ for( var i = 2 ; i <= 9 ; i++ ){
         printTimesTable(i);
 }
 
+
+// 평균 구하기
+function solution11(arr) {
+    var answer = 0;
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++){
+        sum += arr[i]
+    }
+    answer = sum / arr.length
+    return answer;
+}
